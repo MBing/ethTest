@@ -29,7 +29,7 @@ Your data directory must be empty so your genesis file must not be in there!
 To open the Mist App you need to connect to geth through the IPC file. (See Tip above - *Commands* section) 
 Run this command:
 ```
-	/Applications/Mist.app/Contents/MacOS/Mist --rpc <path to chaindata>/geth.ipc
+	$ /Applications/Mist.app/Contents/MacOS/Mist --rpc <path to chaindata>/geth.ipc
 ```
 
 This makes sure you will open Mist with the right connection. If not then Mist will create its own connection.
