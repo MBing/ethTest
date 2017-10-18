@@ -18,6 +18,7 @@ Your data directory must be empty so your genesis file must not be in there!
 - [MetaMask - Chrome Extension](https://metamask.io/)
 - [Mist](https://github.com/ethereum/mist)
 - [Mist Download Page - Only Installer, wallet is NOT necessary!](https://github.com/ethereum/mist/releases)
+- [Remix IDE](http://remix.ethereum.org/)
 
 ## Connect Mist to your VPN
 - Skip all steps of installation wizard on startup. (Not necessary here)
