@@ -36,5 +36,11 @@ This makes sure you will open Mist with the right connection. If not then Mist w
 When you are running your Private Network and try to run Mist without this connection, you will get an error.
 Make sure to follow the steps and you are using the right Geth node for the connection to your Private Network.
 
+**WINDOWS**
+
+- Open Mist application
+- Skip Installation Wizard (we don't need to set this up)
+- Ready
+
 Once connected, the Mist app will start and you can click `Launch Application`.
 
