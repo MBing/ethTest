@@ -31,7 +31,7 @@ Go into the folder and run these commands to start your own Private Network.
 To open the Mist App you need to connect to geth through the IPC file. (See Tip above - *Commands* section) 
 Run this command:
 ```
-	$ /Applications/Mist.app/Contents/MacOS/Mist --rpc <path to chaindata>/geth.ipc
+	$ /Applications/Mist.app/Contents/MacOS/Mist --rpc <path/to/geth.ipc>
 ```
 
 This makes sure you will open Mist with the right connection. If not then Mist will create its own connection.
@@ -45,12 +45,25 @@ Make sure to follow the steps and you are using the right Geth node for the conn
 - Ready
 
 Once connected, the Mist app will start and you can click `Launch Application`.
+First create an account, this is a Private Network, so don't worry about the password. 
+When going online, please use a very secure password!
 
-## Start Mining
+## Run Geth
+Now we have 1 terminal open that ran our Commands, another where we had to run our Mist application (Mac OS X) 
+and now we need to run our Geth console in another terminal. Open a terminal window and use the following command:
+```
+	$ geth attach ipc:<path/to/geth.ipc>
+```
 
-When you are done with Commands & Mist is working, then you can start mining with the following command:
+## Start/Stop Mining (Geth Console)
+
+When you are done with Commands, Mist & Geth Console is running, use the following commands for mining Ethers:
 ```
-	$ miner.start(1)
+	$ miner.start(1);
+	$ miner.stop();
+	$ exit
 ```
+
+Now you should see your Mist wallet getting updated with Ethers.
 
 Enjoy!
