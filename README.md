@@ -45,3 +45,11 @@ Make sure to follow the steps and you are using the right Geth node for the conn
 
 Once connected, the Mist app will start and you can click `Launch Application`.
 
+## Start Mining
+
+When you are done with Commands & Mist is working, then you can start mining with the following command:
+```
+	$ miner.start(1)
+```
+
+Enjoy!
