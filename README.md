@@ -7,6 +7,7 @@ Your data directory must be empty so your genesis file must not be in there!
 - [Geth](https://github.com/ethereum/go-ethereum/wiki/geth)
 
 ### Commands
+Go into the folder and run these commands to start your own Private Network.
 ```
 	$ geth --datadir=./chaindata/ init genesis.json
 	$ geth --datadir=./chaindata/
